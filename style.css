@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family:"3dfont";
+    src:url("fonts/myfont.ttf");
+}
+
+.facebook{
+    color: #3b5998;
+}
+
+.twitter{
+    color: #00acee;
+}
+
+.youtube{
+    color: #c4302b;
+}
+
+.skype{
+    color: #00aff0;
+}
+
+
+.bottom-space{
+    margin-bottom: 50px;
+}
+
+.wrapper{
+    width: 1170px;
+    display: block;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Header design */
+.header{
+    display: flex;
+}
+.header .logo{}
+.header .logo a{}
+.header .logo a img{}
+.header .menu{
+    width: 100%;
+}
+.header .menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.header .menu ul li{}
+.header .menu ul li a{
+    text-decoration:none;
+    padding: 15px 30px;
+    display: block;
+    color:black;
+}
+
+.header .menu ul li a:hover{
+    background: black;
+    color: white;
+}
+
+
+
+/* Banner Design */
+.banner{
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* Our Team Design */
+.team{
+    padding-bottom: 70px;
+}
+.team .heading{}
+.team .heading h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family:"3dfont";
+}
+
+.team .all-members{
+    display: flex;
+}
+.team .all-members .single-member{
+    width: 33%;
+    margin: 0px 10px;
+}
+.team .all-members .single-member img{
+    max-width: 100%;
+}
+.team .all-members .single-member h1{
+    margin-bottom: 5px;
+    color: rgb(82, 82, 82);
+    font-size: 28px;
+}
+.team .all-members .single-member h4{
+    margin-bottom: 20px;
+    color: rgb(167, 167, 167);
+}
+.team .all-members .single-member p{
+    text-align: justify;
+    
+}
+
+.team .all-members .single-member ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.team .all-members .single-member ul li{}
+.team .all-members .single-member ul li a{
+    color: orange;
+    font-size: 20px;
+    padding:0px 10px;
+}
+.team .all-members .single-member ul li a i{}
+
+
+/* -------------- contact form ------------- */
+.contact-form{
+    padding: 70px 0px;
+    margin-bottom: 30px;
+    
+    /* 
+    background: url('images/bg-2.png');
+    background-repeat: repeat;
+    */
+    
+ 
+    background: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    
+}
+.contact-form .heading{}
+.contact-form .heading h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 9px;
+    font-family:"3dfont";
+}
+
+.contact-form form{
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+.contact-form form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+.contact-form form input::placeholder{
+    color: #fff;
+}
+.contact-form form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    outline: none;
+    resize: none;
+    border: 1px solid #fff;
+   /*  background: rgba(0,0,0,.3); */
+   background: transparent;
+   border-radius: 5px;
+   color: #fff;
+}
+.contact-form form textarea::placeholder{
+    color: #fff;
+}
+.contact-form form button{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+/* How to round anythin in css */
+.round-example{
+    height: 300px;
+    width: 300px;
+    background: orange;
+    border-radius: 50%;
+}
+
+
+
